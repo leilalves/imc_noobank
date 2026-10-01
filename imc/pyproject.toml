@@ -1,0 +1,7 @@
+[tool.flet]
+# A pasta "assets/" é incluída automaticamente no build — não é mais
+# necessário listar cada arquivo aqui (ex.: "assets/icon.png", "Senai.png").
+# Basta garantir que icon.png e Senai.png estejam dentro de assets/.
+
+[tool.flet.packaging.android]
+icon = "assets/icon.png"
