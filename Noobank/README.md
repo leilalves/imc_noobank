@@ -16,7 +16,7 @@ camada foi mantida em **um único arquivo**.
 
 ```bash
 python -m venv venv
-Windows: venv\Scripts\activate
+Windows: venv/Scripts/activate
 pip install "flet[all]"
 pip install flet flet-local-auth
 python main.py
